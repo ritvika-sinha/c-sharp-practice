@@ -1,0 +1,1 @@
+The following code will compile, but is not recommended, according to the MSDN documentation. If Main() is public, other classes could call it.  But this violates the intent for Main(), which is meant to only be called once, when the program is invoked.
