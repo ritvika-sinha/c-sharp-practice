@@ -6,16 +6,7 @@ using System.Threading.Tasks;
 
 namespace C_Sharp_Practice
 {
-    class Person
-    {
-        public string name;
-        public static int count = 0;
-        public Person(string name)
-        {
-            this.name = name;
-            count++;
-        }
-    }
+    
     class Program
     {
         static void Main(string[] args)
