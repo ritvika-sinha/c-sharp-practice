@@ -8,3 +8,5 @@ Using a verbatim string literal, we can write the earlier string without doublin
 
 We can also use a verbatim string literal to split a string across multiple lines in the source code, rather than embedding the \n escape sequence:
 (see string address)
+
+Verbatim string can also be used for including quotation marks in strings.

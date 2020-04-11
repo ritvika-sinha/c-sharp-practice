@@ -31,7 +31,11 @@ namespace C_Sharp_Practice
             Second line
             Third line";
 
-            Console.WriteLine(file1+"\n"+ file2);
+            //including quotation mark in string using escape sequence
+            Console.WriteLine("She said \"My name is Ritvika\"");
+            //including quotation mark in string using verbatim string literal
+            Console.WriteLine(@"She said ""My name is Ritvika""");
+
             Console.ReadKey();
         }
     }
