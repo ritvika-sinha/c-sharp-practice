@@ -1,0 +1,1 @@
+For reference types, a default equality check normally checks to see if the references are pointing to the exact same object–rather than checking to see if the objects pointed to are equivalent.
