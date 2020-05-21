@@ -1,0 +1,1 @@
+When you declare an enum, by default each enumerated value is represented internally with an int.  (System.Int32 – 4 bytes).  But you can use any of the following types: byte, sbyte, short, ushort, uint, long, or ulong.
