@@ -1,0 +1,1 @@
+Static data and constants defined in a C# program are stored on the heap.  Since they exist for the lifetime of the application, they do not need to be garbage collected and are therefore stored in a loader heap, rather than the normal Garbage Collected heap.  Specifically, static data is stored on  the high-frequency heap–one of the loader heaps that exists for each AppDomain.
